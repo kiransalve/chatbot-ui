@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CongoAI Chatbot UI</title>
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="main_chat_container">
+      <button type="button" class="iris_button">Ask Iris</button>
+      <!-- chatbox container -->
+      <div class="chatbox_container" id="chatbox-container">
+        <!-- heading content -->
+        <div class="header_content_container">
+          <div class="header_content">
+            <h2>IRIS</h2>
+            <h4>Hello<img src="./images/hello.png" class="hello_icon" /></h4>
+            <p>
+              I am Iris, a Virtual Assistant<br />
+              How may I help you?
+            </p>
+          </div>
+        </div>
+        <!-- robot icon -->
+        <div class="robot_icon_container">
+          <i class="fas fa-robot"></i>
+        </div>
+        <!-- Questions container -->
+        <div class="que_container">
+          <!-- Question blocks -->
+          <div class="que_header">
+            <p>
+              Frequently Asked Questions
+              <span><i class="fas fa-question"></i></span>
+            </p>
+          </div>
+          <div class="que_blocks">
+            <p class="block">
+              <span></span> Can I redeem my FB before the original term?
+            </p>
+            <p class="block"><span></span> How do I pay my Credit card bill?</p>
+            <p class="block">
+              <span></span> How can I get my Account Statement?
+            </p>
+            <p class="block">
+              <span></span> What is the tenure of Fixed Deposite?
+            </p>
+            <div class="conv_block">
+              <i class="fas fa-comments"></i>
+              <p>Start a New Conversation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
